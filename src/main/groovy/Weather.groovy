@@ -6,7 +6,7 @@
  * Time: 3:18 PM
  */
 
-println "Hello Data Munging"
+println "Hello Data Munging For wather.dat"
 
 List<String> fileContent = getFileContent("/resources/weather.dat")
 def pattern = ~/\d+/
